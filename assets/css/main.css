@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
-@import url(font-parryhotter.min.css);
+@import url(font-parryhotter.css);
+@import url(font-harryp.css);
 
 /*
 	Hyperspace by HTML5 UP
@@ -3254,9 +3255,19 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/*background-color: #493382;*/
+			font-family: HarryP;
+			color: #fff;
+			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+			letter-spacing: 5px;		
 		}
-
+		.wrapper.style1 h1 {
+			font-size:8em;
+			text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 12px #fff, 0 0 70px #ff2d95, 0 0 80px #ff2d95, 0 0 90px #ff2d95, 0 0 100px #ff2d95, 0 0 125px #ff2d95;
+			letter-spacing: 10px;
+			margin-bottom: 0em;
+		}
+			
 		.wrapper.style1-alt {
 			background-color: #493382;
 		}
@@ -3885,7 +3896,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/potter.svg");
+		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
