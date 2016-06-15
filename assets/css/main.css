@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url(font-parryhotter.css);
 @import url(font-harryp.css);
+@import url(font-lumos.css);
 
 /*
 	Hyperspace by HTML5 UP
@@ -3027,7 +3028,7 @@
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 30em;
 		}
 
 			.spotlights > section > .image img {
@@ -3258,22 +3259,32 @@
 			/*background-color: #493382;*/
 			font-family: HarryP;
 			color: #fff;
-			text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+			text-shadow: 0 0 50px #fff, 0 0 20px #c2b, 0 0 30px #c2b, 0 0 40px #c2b, 0 0 50px #c2b, 0 0 75px #c2b;
 			letter-spacing: 5px;		
 		}
 		.wrapper.style1 h1 {
 			font-size:8em;
-			text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 12px #fff, 0 0 70px #ff2d95, 0 0 80px #ff2d95, 0 0 90px #ff2d95, 0 0 100px #ff2d95, 0 0 125px #ff2d95;
+			text-shadow: 0 0 3px #fff, 0 0 70px #c2b, 0 0 80px #c2b, 0 0 90px #c2b, 0 0 100px #c2b, 0 0 125px #c2b;
 			letter-spacing: 10px;
 			margin-bottom: 0em;
-		}
-			
+		}				
 		.wrapper.style1-alt {
-			background-color: #493382;
+			font-family: LUMOS; letter-spacing: 4px;
+			/*background-color: #493382;*/
+			background-attachment: fixed;
+			background-image: url("images/hp1-gimp.png");
+			background-position: top left;
+			background-repeat: no-repeat;
+			background-size: cover;			
+		}
+		
+		#mission {
+
 		}
 
 		.wrapper.style2 {
 			background-color: #5052b5;
+			font-size:0.8em;
 		}
 
 		.wrapper.style2-alt {
